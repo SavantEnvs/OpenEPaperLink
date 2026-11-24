@@ -1,0 +1,3 @@
+t=1000 TX type=01 seq=0 flags=0 payload=02014d00
+LOG v2: radio speaks protocol 3.1
+t=1001 v2StartLink -> 0

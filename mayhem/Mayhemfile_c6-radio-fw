@@ -1,0 +1,9 @@
+project: savantenvs/OpenEPaperLink
+target: c6-radio-fw
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/c6-radio-fw/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/c6_radio_fw @@
+    afl: true
+    timeout: 10

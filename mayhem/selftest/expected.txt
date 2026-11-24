@@ -1,0 +1,3 @@
+deflate status=1 in=4736 out=822 crc=a680131b roundtrip=ok
+g5 rc=4 size=158 crc=ee733025 roundtrip=ok
+ttf loaded=1 width=224 pixels=2117 crc=6d0be35a

@@ -1,0 +1,9 @@
+project: savantenvs/OpenEPaperLink
+target: v2-transport
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/v2-transport/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/v2_transport
+    libfuzzer: true
+    timeout: 10

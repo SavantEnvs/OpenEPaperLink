@@ -1,0 +1,9 @@
+project: savantenvs/OpenEPaperLink
+target: c6-uart-link
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/c6-uart-link/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/c6_uart_link @@
+    afl: true
+    timeout: 10
